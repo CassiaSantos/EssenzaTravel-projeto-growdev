@@ -10,3 +10,88 @@ header {
     background-color: #3b63b6;
     padding: 36px;
 }
+
+section {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+nav.menu li {
+    list-style-type: none;
+    margin: 12px 0px;
+} 
+
+nav.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+
+} 
+
+h2 {
+    font-size: 3rem;
+    margin: 10px 0px 20px;
+}
+
+.botao-padrao {
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    background-color: #3b63b6;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.quem-somos-paragrafos {
+    text-align: justify;
+    padding-top: 1.5rem;
+}
+
+div#container-table {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+table{
+    min-width: 450px;
+}
+
+table, td, th{
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td, th{
+    padding: 12px;
+}
+
+tbody th {
+    text-align: left;
+}
+
+a#botao-flutuante {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+a#botao-flutuante > img{
+    width: 55px;
+}
+
+footer {
+    padding: 3rem;
+}
+
+footer > p{
+    color: #cccccc;
+    text-align: center;
+    font-size: 0.9rem;
+}
